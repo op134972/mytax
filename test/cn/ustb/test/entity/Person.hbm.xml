@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="cn.ustb.test.entity.Person" table="t_Person">
+		<id name="id" type="java.lang.String">
+			<column name="id" length="32"></column>
+			<generator class="uuid.hex"></generator>
+		</id>
+		<property name="name" type="java.lang.String">
+			<column name="name" length="20" not-null="true"/>
+		</property>
+	</class>
+
+</hibernate-mapping>
+
+
+

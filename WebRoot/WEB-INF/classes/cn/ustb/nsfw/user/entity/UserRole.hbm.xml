@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="cn.ustb.nsfw.user.entity.UserRole" table="t_userRole">
+		<composite-id name="id" class="cn.ustb.nsfw.user.entity.UserRoleId">
+			<key-many-to-one name="role" lazy="false" class="cn.ustb.nsfw.role.entity.Role">
+				<column name="role_id" not-null="true" length="32"></column>
+			</key-many-to-one>
+			<key-property name="userId">
+				<column name="user_id" not-null="true" length="32"></column>
+			</key-property>
+		</composite-id>
+	</class>
+</hibernate-mapping>

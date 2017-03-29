@@ -1,0 +1,24 @@
+#MyEclipse Hibernate Properties
+#Sat Jan 14 16:41:06 CST 2017
+sessionFactoryName=
+genBasicCompId=false
+profile=
+daoSFId=
+version=3.2
+jndiPath=
+detectM2M=false
+reStrategyClass=
+detectO2O=false
+springDaoFile=
+useJavaTypes=true
+keyGenerator=uuid.hex
+libInstallFolder=<no jars/zips in selected libraries>
+addLibs2Project=true
+genVersionTag=false
+sessionFactoryId=
+basePersistenceClass=
+genAnnotations=false
+reSettingsFile=/myTax/hibernate.reveng.xml
+configFile=/myTax/src/hibernate.cfg.xml
+createConfigFile=true
+addLibs2Classpath=true
