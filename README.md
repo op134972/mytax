@@ -6,4 +6,3 @@ url：http://localhost:8080/myTax/index.jsp
 管理员账号：admin
 密码:123456
 
-ole..
